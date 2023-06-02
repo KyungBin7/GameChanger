@@ -1,0 +1,63 @@
+body{
+    background-color: #21526D;
+}
+.result-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .keyword-section,
+  .similar-games-section,
+  .recommended-price-section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #21526D;
+    margin-bottom: 10px;
+  }
+  
+  .keyword-list,
+  .game-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding: 0;
+  }
+  
+  .keyword-list li,
+  .game-list li {
+    margin-bottom: 5px;
+    color: #21526D;
+  }
+  
+  .recommended-price {
+    font-size: 20px;
+    color: #21526D;
+  }
+  .image-button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .image-wrapper {
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .image-button img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-button:hover img {
+    transform: scale(1.1);
+  }
